@@ -30,9 +30,7 @@ def run_guessing_game
   #  puts guess_num 
   #end 
   
-  if user_input == "exit"
-    puts "Goodbye!"
-  end 
+
   
  # while user_input != "exit" do 
     if user_input == rando_num
