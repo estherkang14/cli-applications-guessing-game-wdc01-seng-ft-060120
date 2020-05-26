@@ -34,11 +34,13 @@ def run_guessing_game
     puts "Goodbye!"
   end 
   
-  while user_input.to_i != "exit" do 
+  while user_input != "exit" do 
     if user_input == rando_num
       puts "You guessed the correct number!"
-    else 
+    elsif user_input != rando_num  
       puts "Sorry! The computer guessed #{rando_num}."
+    else 
+      puts guess_num 
     end 
   end 
   
