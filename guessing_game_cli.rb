@@ -22,13 +22,11 @@ def run_guessing_game
   
     if user_input.to_i == rando_num
       puts "You guessed the correct number!"
-    #elsif user_input.to_i != rando_num  
-      #puts "Sorry! The computer guessed #{rando_num}."
     elsif user_input.to_s == 'exit'
       puts "Goodbye!"
     else 
       puts "Sorry! The computer guessed #{rando_num}."
-      #puts guess_num 
+  
     end 
 
   
