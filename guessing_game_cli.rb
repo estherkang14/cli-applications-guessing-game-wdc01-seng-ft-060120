@@ -34,7 +34,7 @@ def run_guessing_game
     puts "Goodbye!"
   end 
   
-  while user_input != "exit" do 
+ # while user_input != "exit" do 
     if user_input == rando_num
       puts "You guessed the correct number!"
     elsif user_input != rando_num  
@@ -42,7 +42,7 @@ def run_guessing_game
     else 
       puts guess_num 
     end 
-  end 
+ # end 
   
   
   #ask question: why is 'you guessed the correct num' not #outputting? 
