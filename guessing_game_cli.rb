@@ -37,14 +37,16 @@ def run_guessing_game
       puts "You guessed the correct number!"
     elsif user_input != rando_num  
       puts "Sorry! The computer guessed #{rando_num}."
+    elsif user_input == "exit"
+      puts "Goodbye!"
     else 
       puts guess_num 
     end 
  # end 
  
-    if user_input == "exit"
-    puts "Goodbye!"
-  end 
+  #  if user_input == "exit"
+  #  puts "Goodbye!"
+ # end 
   
   #ask question: why is 'you guessed the correct num' not #outputting? 
 end
