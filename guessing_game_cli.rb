@@ -31,6 +31,4 @@ def run_guessing_game
     end 
 
   
-  
-  #ask question: why is 'you guessed the correct num' not #outputting? 
 end
