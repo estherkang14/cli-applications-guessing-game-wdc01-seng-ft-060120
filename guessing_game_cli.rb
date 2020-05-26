@@ -24,7 +24,7 @@ def run_guessing_game
       puts "You guessed the correct number!"
     elsif user_input.to_i != rando_num  
       puts "Sorry! The computer guessed #{rando_num}."
-    elsif user_input == "exit"
+    elsif user_input.to_s == "exit"
       puts "Goodbye!"
     else 
       puts guess_num 
