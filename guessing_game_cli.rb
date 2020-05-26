@@ -20,33 +20,17 @@ def run_guessing_game
   puts guess_num
   user_input = gets.chomp
   
-  #if user_input == "exit"
-   # puts "Goodbye!"
-  #elsif user_input != rando_num 
-   # puts "Sorry! The computer guessed #{rando_num}."
- # elsif user_input == rando_num 
-   # puts "You guessed the correct number!"
-  #else 
-  #  puts guess_num 
-  #end 
-  
-
-  
- # while user_input != "exit" do 
-    if user_input == rando_num
+    if user_input.to_i == rando_num
       puts "You guessed the correct number!"
-    elsif user_input != rando_num  
+    elsif user_input.to_i != rando_num  
       puts "Sorry! The computer guessed #{rando_num}."
     elsif user_input == "exit"
       puts "Goodbye!"
     else 
       puts guess_num 
     end 
- # end 
- 
-  #  if user_input == "exit"
-  #  puts "Goodbye!"
- # end 
+
+  
   
   #ask question: why is 'you guessed the correct num' not #outputting? 
 end
