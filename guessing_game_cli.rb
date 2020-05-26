@@ -41,7 +41,10 @@ def run_guessing_game
       puts guess_num 
     end 
  # end 
-  
+ 
+    if user_input == "exit"
+    puts "Goodbye!"
+  end 
   
   #ask question: why is 'you guessed the correct num' not #outputting? 
 end
